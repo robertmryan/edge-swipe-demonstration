@@ -17,7 +17,13 @@
 		83A42AAA178C58EC00B6A623 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83A42AA9178C58EC00B6A623 /* Default@2x.png */; };
 		83A42AAC178C58EC00B6A623 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83A42AAB178C58EC00B6A623 /* Default-568h@2x.png */; };
 		83A42AAF178C58EC00B6A623 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83A42AAD178C58EC00B6A623 /* MainStoryboard.storyboard */; };
-		83A42AB2178C58EC00B6A623 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83A42AB1178C58EC00B6A623 /* ViewController.m */; };
+		83A42ABA178C590100B6A623 /* EdgeSwipeGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 83A42AB9178C590100B6A623 /* EdgeSwipeGestureRecognizer.m */; };
+		83A42ABD178C596600B6A623 /* ParentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83A42ABC178C596600B6A623 /* ParentViewController.m */; };
+		83A42AC1178C5A4300B6A623 /* ChildViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83A42AC0178C5A4300B6A623 /* ChildViewController.m */; };
+		83A42AC4178C9AB400B6A623 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83A42AC3178C9AB400B6A623 /* FirstViewController.m */; };
+		83A42AC7178C9AC000B6A623 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83A42AC6178C9AC000B6A623 /* SecondViewController.m */; };
+		83A42ACA178C9B0600B6A623 /* EdgeSwipeSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 83A42AC9178C9B0600B6A623 /* EdgeSwipeSegue.m */; };
+		83A42ACC178C9F5800B6A623 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83A42ACB178C9F5800B6A623 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,8 +41,22 @@
 		83A42AA9178C58EC00B6A623 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		83A42AAB178C58EC00B6A623 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		83A42AAE178C58EC00B6A623 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		83A42AB0178C58EC00B6A623 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		83A42AB1178C58EC00B6A623 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		83A42AB8178C590100B6A623 /* EdgeSwipeGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EdgeSwipeGestureRecognizer.h; sourceTree = "<group>"; };
+		83A42AB9178C590100B6A623 /* EdgeSwipeGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EdgeSwipeGestureRecognizer.m; sourceTree = "<group>"; };
+		83A42ABB178C596600B6A623 /* ParentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParentViewController.h; sourceTree = "<group>"; };
+		83A42ABC178C596600B6A623 /* ParentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParentViewController.m; sourceTree = "<group>"; };
+		83A42ABE178C5A1700B6A623 /* ParentControllerDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ParentControllerDelegate.h; sourceTree = "<group>"; };
+		83A42ABF178C5A4300B6A623 /* ChildViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChildViewController.h; sourceTree = "<group>"; };
+		83A42AC0178C5A4300B6A623 /* ChildViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChildViewController.m; sourceTree = "<group>"; };
+		83A42AC2178C9AB400B6A623 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		83A42AC3178C9AB400B6A623 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		83A42AC5178C9AC000B6A623 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		83A42AC6178C9AC000B6A623 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		83A42AC8178C9B0600B6A623 /* EdgeSwipeSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EdgeSwipeSegue.h; sourceTree = "<group>"; };
+		83A42AC9178C9B0600B6A623 /* EdgeSwipeSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EdgeSwipeSegue.m; sourceTree = "<group>"; };
+		83A42ACB178C9F5800B6A623 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		83A42AD0178D4A9E00B6A623 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		83A42AD1178D4A9E00B6A623 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83A42ACC178C9F5800B6A623 /* QuartzCore.framework in Frameworks */,
 				83A42A96178C58EC00B6A623 /* UIKit.framework in Frameworks */,
 				83A42A98178C58EC00B6A623 /* Foundation.framework in Frameworks */,
 				83A42A9A178C58EC00B6A623 /* CoreGraphics.framework in Frameworks */,
@@ -56,6 +77,8 @@
 		83A42A89178C58EC00B6A623 = {
 			isa = PBXGroup;
 			children = (
+				83A42AD1178D4A9E00B6A623 /* README.md */,
+				83A42AD0178D4A9E00B6A623 /* LICENSE */,
 				83A42A9B178C58EC00B6A623 /* Edge Swipe Demonstration */,
 				83A42A94178C58EC00B6A623 /* Frameworks */,
 				83A42A93178C58EC00B6A623 /* Products */,
@@ -73,6 +96,7 @@
 		83A42A94178C58EC00B6A623 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				83A42ACB178C9F5800B6A623 /* QuartzCore.framework */,
 				83A42A95178C58EC00B6A623 /* UIKit.framework */,
 				83A42A97178C58EC00B6A623 /* Foundation.framework */,
 				83A42A99178C58EC00B6A623 /* CoreGraphics.framework */,
@@ -86,8 +110,9 @@
 				83A42AA4178C58EC00B6A623 /* AppDelegate.h */,
 				83A42AA5178C58EC00B6A623 /* AppDelegate.m */,
 				83A42AAD178C58EC00B6A623 /* MainStoryboard.storyboard */,
-				83A42AB0178C58EC00B6A623 /* ViewController.h */,
-				83A42AB1178C58EC00B6A623 /* ViewController.m */,
+				83A42ACF178D492A00B6A623 /* Custom container view controller */,
+				83A42ACD178D490800B6A623 /* Gesture and segue */,
+				83A42ACE178D491900B6A623 /* Sample child view controllers */,
 				83A42A9C178C58EC00B6A623 /* Supporting Files */,
 			);
 			path = "Edge Swipe Demonstration";
@@ -105,6 +130,40 @@
 				83A42AAB178C58EC00B6A623 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		83A42ACD178D490800B6A623 /* Gesture and segue */ = {
+			isa = PBXGroup;
+			children = (
+				83A42AC8178C9B0600B6A623 /* EdgeSwipeSegue.h */,
+				83A42AC9178C9B0600B6A623 /* EdgeSwipeSegue.m */,
+				83A42AB8178C590100B6A623 /* EdgeSwipeGestureRecognizer.h */,
+				83A42AB9178C590100B6A623 /* EdgeSwipeGestureRecognizer.m */,
+			);
+			name = "Gesture and segue";
+			sourceTree = "<group>";
+		};
+		83A42ACE178D491900B6A623 /* Sample child view controllers */ = {
+			isa = PBXGroup;
+			children = (
+				83A42AC2178C9AB400B6A623 /* FirstViewController.h */,
+				83A42AC3178C9AB400B6A623 /* FirstViewController.m */,
+				83A42AC5178C9AC000B6A623 /* SecondViewController.h */,
+				83A42AC6178C9AC000B6A623 /* SecondViewController.m */,
+				83A42ABF178C5A4300B6A623 /* ChildViewController.h */,
+				83A42AC0178C5A4300B6A623 /* ChildViewController.m */,
+			);
+			name = "Sample child view controllers";
+			sourceTree = "<group>";
+		};
+		83A42ACF178D492A00B6A623 /* Custom container view controller */ = {
+			isa = PBXGroup;
+			children = (
+				83A42ABE178C5A1700B6A623 /* ParentControllerDelegate.h */,
+				83A42ABB178C596600B6A623 /* ParentViewController.h */,
+				83A42ABC178C596600B6A623 /* ParentViewController.m */,
+			);
+			name = "Custom container view controller";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -175,7 +234,12 @@
 			files = (
 				83A42AA2178C58EC00B6A623 /* main.m in Sources */,
 				83A42AA6178C58EC00B6A623 /* AppDelegate.m in Sources */,
-				83A42AB2178C58EC00B6A623 /* ViewController.m in Sources */,
+				83A42ABA178C590100B6A623 /* EdgeSwipeGestureRecognizer.m in Sources */,
+				83A42ABD178C596600B6A623 /* ParentViewController.m in Sources */,
+				83A42AC1178C5A4300B6A623 /* ChildViewController.m in Sources */,
+				83A42AC4178C9AB400B6A623 /* FirstViewController.m in Sources */,
+				83A42AC7178C9AC000B6A623 /* SecondViewController.m in Sources */,
+				83A42ACA178C9B0600B6A623 /* EdgeSwipeSegue.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

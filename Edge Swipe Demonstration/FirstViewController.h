@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  FirstViewController.h
 //  Edge Swipe Demonstration
 //
 //  Created by Robert Ryan on 7/9/13.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface FirstViewController : UIViewController
 
 @end
