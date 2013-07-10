@@ -17,6 +17,10 @@ typedef enum : NSInteger {
 } EdgeSwipeGestureRecognizerSide;
 
 /** Continuous gesture recognized when swiping from the edge of the screen, travelling particular distance in particular direction.
+ 
+ ##See Also
+ 
+ - [Edge Swipe Demonstration GitHub Site](https://github.com/robertmryan/edge-swipe-demonstration)
  */
 
 @interface EdgeSwipeGestureRecognizer : UIPanGestureRecognizer

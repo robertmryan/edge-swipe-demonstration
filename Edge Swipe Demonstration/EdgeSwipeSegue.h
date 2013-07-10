@@ -8,7 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-/** Custom gesture recognizer for employing push-like segue compatible with the EdgeSwipeGestureRecognizer
+/** Custom gesture recognizer for employing push-like segue compatible with the `<EdgeSwipeGestureRecognizer>`
+ 
+ ##See Also
+ 
+ -  [Edge Swipe Demonstration GitHub Site](https://github.com/robertmryan/edge-swipe-demonstration)
+
  */
 
 @interface EdgeSwipeSegue : UIStoryboardSegue

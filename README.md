@@ -22,6 +22,10 @@ The key classes of this project include:
 
 This was developed for iOS 6.1 using Xcode 4.6.3 and uses ARC. It should work fine in iOS 5, as well, but you cannot use the "container view" object in Interface Builder, and you would just replace that with a standard `UIView`, link that to the `containerView` of `ParentViewController.h`, and uncomment the code in `viewDidLoad` that manually loads the first child scene.
 
+## See Also
+
+- [Class Reference](http://robertmryan.github.io/edge-swipe-demonstration)
+
 --
 
 Robert M. Ryan
